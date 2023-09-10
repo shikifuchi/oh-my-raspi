@@ -53,8 +53,8 @@ After=network.target
 # LimitNOFILE=524288:524288
 RestartSec=2s
 Type=notify
-User=git
-Group=git
+#User=git
+#Group=git
 WorkingDirectory=/var/lib/gitea/
 # If using Unix socket: tells systemd to create the /run/gitea folder, which will contain the gitea.sock file
 # (manually creating /run/gitea doesn't work, because it would not persist across reboots)

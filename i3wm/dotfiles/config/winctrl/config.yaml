@@ -1,0 +1,34 @@
+defaults:
+  default-icon: "ﬓ"
+  default-workspace-icon: ""
+
+icons:
+  workspace: workspace_icon
+  xfce4-terminal: ""
+  alacritty: ""
+  code: "﬏"
+  google-chrome: ""
+  microsoft-edge: ""
+  firefox: ""
+  steam: ""
+  vmware: ""
+  nvim: ""
+  ranger: "פּ"
+  cmus: ""
+  cider: " ﭵ"
+  mpv: " "
+  jetbrains-idea-ce: ""
+  jetbrains-studio: ""
+  vlc: "嗢"
+  lazygit: " "
+  BattleChasersNightwar: " "
+  Fell Seal: " "
+  tb-linux: " "
+
+terminal-class:
+  - "xfce4-terminal"
+  - "alacritty"
+
+min-title-length: 40
+
+max-title-length: 40

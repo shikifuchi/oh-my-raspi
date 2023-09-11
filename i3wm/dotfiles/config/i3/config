@@ -238,5 +238,5 @@ gaps outer 25
 #smart_gaps off
 for_window [class="vol|ttrm|mus|fm"] floating enable, resize set 1000 600, move scratchpad, border pixel 0
 
-
+$exec "~/.local/bin/wallpaper.sh"
 $exec "killall -q picom; picom --config $HOME/.config/picom/picom.conf &"

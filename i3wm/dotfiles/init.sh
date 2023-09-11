@@ -8,6 +8,7 @@ rm -rf ~/.config/picom
 rm -rf ~/.local/bin/autostart.sh
 rm -rf ~/.local/bin/launch-polybar.sh
 rm -rf ~/.local/bin/winctrl.py
+rm -rf ~/.local/bin/wallpaper.sh
 
 rm -rf ~/.local/share/rofi
 
@@ -21,5 +22,6 @@ ln -s $PWD/config/picom ~/.config/picom
 ln -s $PWD/local/bin/autostart.sh ~/.local/bin/autostart.sh
 ln -s $PWD/local/bin/launch-polybar.sh ~/.local/bin/launch-polybar.sh
 ln -s $PWD/local/bin/winctrl.py ~/.local/bin/winctrl.py
+ln -s $PWD/local/bin/wallpaper.sh ~/.local/bin/wallpaper.sh
 
 ln -s $PWD/local/share/rofi ~/.local/share/rofi

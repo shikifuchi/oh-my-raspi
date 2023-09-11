@@ -19,8 +19,5 @@ export CLASSPATH=".:/home/benedict/.m2/repository/org/antlr/antlr4/4.11.1/antlr4
 
 export HYPRSHOT_DIR=~/Pictures/screenshots
 
-export PYTHON_ENV=~/Python
-source $PYTHON_ENV/bin/activate
-
 alias grun="java org.antlr.v4.runtime.misc.TestRig"
 

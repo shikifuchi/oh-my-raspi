@@ -26,10 +26,6 @@
   spacing : 0;
 }
 
-element-icon, element-text, scrollbar {
-  cursor: pointer;
-}
-
 window {
   location : center;
   width    : 600px;

@@ -1,4 +1,4 @@
 configuration {
   dpi: 96;
 }
-@theme "catppuccin"
+@theme "catppuccin-mocha"

@@ -10,7 +10,7 @@ parser = ArgumentParser(description="i3 window maximize & close")
 config_path = os.environ.get("XDG_CONFIG_HOME")
 
 if config_path is None:
-    config_path = "~/.config/winctrl"
+    config_path = "/home/benedict/.config/winctrl"
 else:
     config_path = config_path + "/winctrl"
 config_file = open(config_path + "/config.yaml")

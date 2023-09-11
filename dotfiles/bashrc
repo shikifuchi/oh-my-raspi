@@ -12,3 +12,4 @@ PS1='[\u@\h \W]\$ '
 if [[ -e .custom_sh_rc ]]; then
   source .custom_sh_rc
 fi
+. "$HOME/.cargo/env"

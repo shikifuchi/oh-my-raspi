@@ -9,7 +9,6 @@ export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin"
 alias dev="cd ~/Projects/"
 alias downloads="cd ~/Downloads/"
 alias goconf="cd ~/.config/"
-alias mydata="cd ~/Data/"
 
 export PATH="$PATH:~/.sdkman/candidates/kotlin/current/bin:~/.sdkman/candidates/java/current/bin"
 
@@ -17,7 +16,7 @@ export GOPROXY=https://goproxy.io
 
 export CLASSPATH=".:/home/benedict/.m2/repository/org/antlr/antlr4/4.11.1/antlr4-4.11.1-complete.jar:$CLASSPATH "
 
-export HYPRSHOT_DIR=~/Pictures/screenshots
-
 alias grun="java org.antlr.v4.runtime.misc.TestRig"
+
+alias vim="vim -S ~/.vimrc"
 

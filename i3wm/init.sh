@@ -11,9 +11,9 @@ rm -rf ~/.local/bin/winctrl.py
 rm -rf ~/.local/share/rofi
 
 
-ln -s $PWD/i3 ~/.config/i3
-ln -s $PWD/polybar ~/.config/polybar
-ln -s $PWD/rofi ~/.config/rofi
+ln -s $PWD/config/i3 ~/.config/i3
+ln -s $PWD/config/polybar ~/.config/polybar
+ln -s $PWD/config/rofi ~/.config/rofi
 
 
 ln -s $PWD/local/bin/autostart.sh ~/.local/bin/autostart.sh

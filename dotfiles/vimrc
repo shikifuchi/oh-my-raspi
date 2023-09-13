@@ -66,7 +66,7 @@ let g:airline_theme='catppuccin_mocha'
 colorscheme catppuccin_mocha
 "let g:dracula_italic = 0
 "packadd! dracula
-syntax on
+syntax enable
 "colorscheme dracula
 "colorscheme github_dark 
 highlight Normal ctermbg=None
